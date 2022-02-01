@@ -1,6 +1,5 @@
 import json
 import re
-import collections
 
 def phrasel_search(P, Queries): 
     ans = []
