@@ -23,7 +23,7 @@ def find_fuzzy(phrase, query):
         # loop through entire sentence, from "starting" position
         while start < (len(sentence_split) - len(word_split)):
             if word_split[0] == sentence_split[start]:  # Did we find a match with the first word? cool
-                tmp.append(word_split[0]) #put the first word in the list, increment both counters
+                tmp.append(word_split[0]) #put the first word in the list, instantiate both counters
                 wcounter = 1
                 scounter = 1
                 for word in word_split[1:]:  # for each word in the phrase
