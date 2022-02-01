@@ -58,7 +58,7 @@ def find_fuzzy(phrase, query):
     except ValueError: # if we get a value error at any point, return a blank list, probably a better solution somewhere out there /shrug
         return []
 
-# easy lil testing def... probably
+# easy lil testing def
 def do_they_match(list1, list2):
     for list in list1:
         list.sort()
